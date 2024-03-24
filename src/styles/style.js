@@ -128,6 +128,51 @@ const styles = StyleSheet.create({
         padding: 4,
         gap: 10,
         margin: 4.5
+    },
+    viewDays: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginTop: 62
+    },
+    dayWeek: {
+        justifyContent: 'space-around',
+        alignItems: 'center',
+        flexDirection: 'row',
+        backgroundColor: '#fff',
+        width: 342,
+        height: 41,
+        borderRadius: 6,
+        marginBottom: 10,
+
+    },
+    gradientScreenTwo: {
+        height: 600
+    },
+    previousRain: {
+        marginTop: 5,
+        backgroundColor: '#fff',
+        width: 342,
+        height: 80,
+        borderRadius: 6,
+    },
+    rain: {
+        flexDirection: 'row',
+        gap: 10,
+        margin: 10
+    },
+    viewRain: {
+        flexDirection: 'row',
+        justifyContent: 'space-around'
+    },
+    textRain: {
+        fontWeight: 'bold',
+        color: '#000'
+    },
+    percentage: {
+        color: '#38A9F9',
+        fontSize: 30,
+        marginTop: -15,
+        fontWeight: 'bold'
     }
 
 });

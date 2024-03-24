@@ -9,7 +9,7 @@ const HomeScreen = () => {
   const [style, setStyle] = useState(styles.input);
 
   const custmOnFocus = () => {
-    setStyle(styles.inputOnFocus)
+    setStyle(styles.inputOnFocus);
   }
 
   const custmOnBlur = () => {
