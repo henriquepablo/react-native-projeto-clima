@@ -27,7 +27,7 @@ const HomeScreen = () => {
         
         <View style={styles.body}> 
           <LinearGradient colors={['#1786ED', '#91DCFF']} style={styles.gradient} start={{x:0.5, y:0}}>
-              <View>
+              <View style={{alignSelf: 'center'}}>
                 <View style={styles.ViewLocalidade}>
                   <Image source={require('../imgs/map-pin.png')} style={styles.imageMap}/>
                   <Text style={styles.textLocalidade}>São Paulo</Text>

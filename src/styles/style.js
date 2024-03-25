@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     infoData: {
         color: '#fff',
         fontSize: 14,
-        marginLeft: 20,
+        
         fontWeight: '400',
         fontFamily: 'Poppins-Medium'
     },
