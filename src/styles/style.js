@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
         height: 697,
     },
     gradient: {
-        height: 480
+        height: 510
     },
     ViewLocalidade: {
         flexDirection: 'row',
@@ -53,7 +53,8 @@ const styles = StyleSheet.create({
     textLocalidade: {
         fontSize: 24,
         color: '#fff',
-        marginLeft: 10
+        marginLeft: 10,
+        fontFamily: 'Poppins-Regular'
     },
     imageMap: {
         height: 24,
@@ -64,6 +65,7 @@ const styles = StyleSheet.create({
         fontSize: 14,
         marginLeft: 20,
         fontWeight: '400',
+        fontFamily: 'Poppins-Medium'
     },
     viewTemperatura: {
         alignItems: 'center',
@@ -72,12 +74,14 @@ const styles = StyleSheet.create({
     temperatura: {
         fontSize: 42,
         color: '#fff',
-        fontWeight: '600'
+        fontWeight: '600',
+        fontFamily: 'Poppins-SemiBold'
     },
     sensacao: {
-        fontSize: 19,
+        fontSize: 18,
         color: '#E7E7E7',
-        marginTop: 12
+        marginTop: 12,
+        fontFamily: 'Poppins-SemiBold'
     },
     viewCard: {
         justifyContent: 'center',
@@ -98,11 +102,14 @@ const styles = StyleSheet.create({
     },
     dataApi: {
         color: '#454545',
-        margin: 6
+        margin: 5,
+        fontFamily: 'Poppins-Regular',
     },
     textCard: {
         textAlign: 'center',
-        color: '#888888'
+        color: '#888888',
+        fontFamily: 'Poppins-Regular',
+        fontSize: 13
     },
     viewInfo: {
         borderStyle: 'solid',

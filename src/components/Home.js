@@ -20,7 +20,7 @@ const HomeScreen = () => {
     <View style={styles.container}>
       <ScrollView>
         <View style={styles.header}>
-          <TextInput placeholder='Pesquise por uma localidade' style={style}  onFocus={custmOnFocus} onBlur={custmOnBlur}/>
+          <TextInput placeholder='Pesquise por uma localidade' style={style} onFocus={custmOnFocus} onBlur={custmOnBlur} />
           <Image source={require('../imgs/search.png')} style={styles.iconSearch}/>
           <Image source={require('../imgs/circle-x.png')} style={styles.iconCircleX} />
         </View>
@@ -71,17 +71,17 @@ const HomeScreen = () => {
           <View style={styles.viewInfo}>
               <View style={styles.lines}>
                   <Image source={require('../imgs/emoji_nature.png')}/>
-                  <Text style={{color: '#3D3D3D'}}>Pólen: Nenhum</Text>
+                  <Text style={{color: '#3D3D3D', fontFamily: 'Poppins-Regular'}}>Pólen: Nenhum</Text>
               </View>
 
               <View style={styles.lines}>
                   <Image source={require('../imgs/windAQI.png')}/>
-                  <Text style={{color: '#3D3D3D'}}>AQI: Insalubre 187</Text>
+                  <Text style={{color: '#3D3D3D', fontFamily: 'Poppins-Regular'}}>AQI: Insalubre 187</Text>
               </View>
 
               <View style={styles.lines}>
                   <Image source={require('../imgs/circle-gauge.png')}/>
-                  <Text style={{color: '#3D3D3D'}}>Corrida: Baixo</Text>
+                  <Text style={{color: '#3D3D3D', fontFamily: 'Poppins-Regular'}}>Corrida: Baixo</Text>
               </View>
               
           </View>
