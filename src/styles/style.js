@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
         marginTop: -18
     },
     body: {
-        height: 697,
+        height: 790,
     },
     gradient: {
         height: 510
@@ -153,7 +153,7 @@ const styles = StyleSheet.create({
 
     },
     gradientScreenTwo: {
-        height: 600
+        height: 790
     },
     previousRain: {
         marginTop: 5,

@@ -20,7 +20,7 @@ export default function App() {
             width: 350, 
             alignSelf: 'center', 
             borderRadius: 8, 
-            marginBottom: 10}}}>
+            bottom: 15, position: 'absolute', left: 21}}}>
               
         <Tab.Screen 
           name="Home"
